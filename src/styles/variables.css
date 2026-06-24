@@ -1,0 +1,52 @@
+:root {
+  /* Colors - True 5-Star Luxury Palette */
+  --primary-color: #C5A059;      /* Brushed Gold */
+  --primary-dark: #A68341;       /* Deep Gold */
+  --secondary-color: #0F172A;    /* Slate Navy / Charcoal */
+  --accent-color: #FDFBF7;       /* Alabaster */
+  
+  /* Backgrounds */
+  --bg-main: #FBFBFA;            /* Warm Off-White */
+  --bg-card: #FFFFFF;
+  --bg-dark: #0B1120;
+  --bg-dark-card: #1E293B;
+  
+  /* Text */
+  --text-main: #1E293B;          /* Dark Slate */
+  --text-muted: #64748B;         /* Slate Gray */
+  --text-light: #F8FAFC;
+  
+  /* Status Colors (Muted for elegance) */
+  --success: #10B981;
+  --warning: #F59E0B;
+  --danger: #EF4444;
+  --info: #0EA5E9;
+  
+  /* Layout */
+  --sidebar-width: 280px;
+  --navbar-height: 70px;
+  
+  /* Shadows & Radius (Soft, diffused, elegant) */
+  --shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 10px 30px rgba(15, 23, 42, 0.04);
+  --shadow-lg: 0 20px 40px rgba(15, 23, 42, 0.06);
+  --shadow-gold: 0 10px 25px rgba(197, 160, 89, 0.25);
+  
+  --radius-sm: 4px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark Theme Variables */
+[data-theme="dark"] {
+  --bg-main: var(--bg-dark);
+  --bg-card: var(--bg-dark-card);
+  --text-main: var(--text-light);
+  --text-muted: #adb5bd;
+}
